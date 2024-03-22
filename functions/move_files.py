@@ -17,9 +17,4 @@ def move_files(dir1: str, dir2: str, files: list) -> None:
             print(f'Файл {file} не существует в папке {dir1}')
 
 
-if __name__ == "__main__":
-    dir1 = input('Введите путь к исходной папке: ')
-    dir2 = input('Введите путь к папке, куда нужно переместить: ')
-    files = input('Введите название файлов через запятую: ').split(',')
 
-    move_files(dir1, dir2, files)

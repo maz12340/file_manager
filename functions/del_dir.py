@@ -11,7 +11,3 @@ def remove_dir(name: str) -> None:
         print(f'Не удалось удалить папку {name}, папка не пустая')
 
 
-if __name__ == "__main__":
-    dir_name = input('Введите название папки: ')
-
-    remove_dir(dir_name)

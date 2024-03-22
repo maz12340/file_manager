@@ -13,8 +13,3 @@ def append_text(name: str, text: str) -> None:
         print(f'Файл {name} не существует')
 
 
-if __name__ == "__main__":
-    file_name = input('Введите название файла: ')
-    text = input('Введите текст для добавления: ')
-
-    append_text(file_name, text)

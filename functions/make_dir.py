@@ -9,7 +9,3 @@ def make_dir(name: str) -> None:
         print(f'Папка {name} уже существует')
 
 
-if __name__ == "__main__":
-    dir_name = input('Введите название папки: ')
-
-    make_dir(dir_name)

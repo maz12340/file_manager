@@ -11,7 +11,4 @@ def cat_file(name: str) -> None:
         print(f'Файл {name} не существует')
 
 
-if __name__ == "__main__":
-    file_name = input('Введите название файла: ')
 
-    cat_file(file_name)
