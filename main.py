@@ -12,6 +12,7 @@ import os
 
 def main():
     print('Вы запустили простой файловый менеджер, введите число от 0 до 10 чтобы выбрать одну из опций:')
+    os.mkdir('working_folder')
     folder = 'working_folder'
 
     while True:
