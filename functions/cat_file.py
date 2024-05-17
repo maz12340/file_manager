@@ -9,6 +9,6 @@ def cat_file(name: str) -> None:
 
     else:
         print(f'Файл {name} не существует')
-
+ 
 
 
