@@ -17,4 +17,4 @@ def move_files(dir1: str, dir2: str, files: list) -> None:
             print(f'Файл {file} не существует в папке {dir1}')
 
 
-
+ 
