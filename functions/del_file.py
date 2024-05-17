@@ -10,5 +10,5 @@ def del_files(files: list) -> None:
         else:
             print(f'Файл {name} не существует')
 
-
+ 
 
