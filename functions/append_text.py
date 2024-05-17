@@ -11,5 +11,5 @@ def append_text(name: str, text: str) -> None:
 
     else:
         print(f'Файл {name} не существует')
-
+ 
 
