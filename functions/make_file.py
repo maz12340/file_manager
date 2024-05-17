@@ -4,5 +4,5 @@ def make_file(files: list) -> None:
         my_file.close()
         print(f'Файл {name} создан')
 
-
+ 
 
