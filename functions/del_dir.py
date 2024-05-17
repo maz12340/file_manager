@@ -9,5 +9,5 @@ def remove_dir(name: str) -> None:
         print(f'Папки {name} не существует')
     except OSError as e:
         print(f'Не удалось удалить папку {name}, папка не пустая')
-
+ 
 
