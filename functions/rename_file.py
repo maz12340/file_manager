@@ -7,3 +7,4 @@ def rename_file(first_name: str, second_name: str) -> None:
     else:
         print(f'Файл {first_name} не существует')
 
+
